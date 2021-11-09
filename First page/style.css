@@ -1,0 +1,21 @@
+#list li {
+	padding: 0px;
+	margin: 2px;
+	margin-left: 0px;
+	background-color: #ddd;
+	font-size: 1.2rem;
+	list-style-type: none;
+}
+
+#list {
+	padding: 0px;
+	display: none;
+}
+
+button {
+	border: none;
+	font-size: 1.1rem;
+	padding: 10px;
+	background-color: #0083ff;
+	border-radius: 4px;
+}

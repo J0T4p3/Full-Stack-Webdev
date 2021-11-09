@@ -1,0 +1,27 @@
+ul {
+	list-style-type: circle;
+	list-style-position: inside;
+	padding: 10px;
+	margin: 0;
+	background-color: lightgreen;
+}
+
+ol {
+	list-style-type: georgian;
+	background-color: red;
+	list-style-position: inside;
+	padding: 10px;
+	margin: 0;
+}
+
+li {
+	border: 1px solid;
+	margin: 5px;
+	padding: 5px;
+	background-color: antiquewhite;
+	border-radius: 5px;
+}
+
+a {
+	text-decoration: none;
+}

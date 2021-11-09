@@ -1,0 +1,17 @@
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	font-family: 'Coming Soon', cursive;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	cursor: cell;
+	background-color: black;
+	padding: 10px 20px;
+	border-radius: 50px;
+	border-color: 2px blue solid;
+}

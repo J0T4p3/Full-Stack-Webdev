@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>View Port</title>
+    <style>
+      body {
+        font-size: 1.2rem;
+        padding: 0%;
+        margin: 0%;
+      }
+
+      .screen {
+        margin: auto;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .header {
+        background-color: purple;
+        height: 100px;
+        position: relative;
+      }
+
+      span {
+        color: white;
+        position: absolute;
+        left: 20%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      ul {
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        right: 20%;
+        top: 50%;
+        transform: translateY(-50%);
+        list-style: none;
+        color: white;
+      }
+
+      li {
+        display: inline-block;
+        margin-left: 30px;
+      }
+
+      @media screen and (max-width: 700px) {
+        .header {
+          height: 250px;
+        }
+
+        span {
+          top: 20%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        ul {
+          text-align: center;
+          right: 50%;
+          top: 35%;
+          transform: translateX(50%);
+        }
+
+        li {
+          margin: 0px;
+          margin-top: 5px;
+          display: block;
+          padding: 10px 110px;
+        }
+      }
+
+    </style>
+  </head>
+
+  <body style="margin: 0px; background-color:ghostwhite;">
+    <div class="screen">
+      <div class="header">
+        <span>Logo</span>
+
+        <ul>
+          <li>Home</li>
+          <li>Cursos</li>
+          <li>Contato</li>
+        </ul>
+
+      </div>
+    </div>
+
+  </body>
+
+</html>

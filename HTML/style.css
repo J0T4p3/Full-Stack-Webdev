@@ -1,0 +1,124 @@
+#titulo {
+	color: dodgerblue;
+	text-emphasis-color: green;
+	text-decoration-color: black;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+#paragrafo {
+	background-image: url('/resources/Seamless_pattern_of_orange_red_floral_with_watercolor.jpg');
+	background-attachment: fixed;
+	background-size: contain;
+}
+
+.subdiv {
+	background-image: url(/resources/donkey-jawbone.jpg);
+	background-attachment: fixed;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	font-size: 20px;
+	width: 90%;
+	background-color: aquamarine;
+}
+
+/* em = font size of dad elements 
+	rem = font size of root elements
+*/
+
+.inside {
+	font-size: 1em;
+	background-color: blueviolet;
+	width: 5em;
+}
+
+#base {
+	height: 10px;
+	background-color: greenyellow;
+}
+
+#container2 {
+	height: 10px;
+	background-color: black;
+	color: blue;
+}
+
+#text {
+	margin: 0;
+	padding-right: 0;
+	color: rgb(200, 150, 255);
+}
+
+.borda {
+	border: 5px dashed blue;
+}
+
+.quadrado {
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+}
+
+.texto_verde {
+	color: green;
+}
+
+#cm {
+	background-color: blueviolet;
+	width: 1cm;
+	height: 1cm;
+}
+
+#mm {
+	background-color: brown;
+	width: 5mm;
+	height: 5mm;
+}
+
+#in {
+	background-color: aquamarine;
+	width: 1in;
+	height: 1in;
+}
+
+#px {
+	background-color: rgb(173, 78, 14);
+	width: 10px;
+	height: 10px;
+}
+
+/* pt = points, accordingly of the screen size. */
+#pt {
+	background-color: rgb(14, 218, 75);
+	width: 10pt;
+	height: 10pt;
+}
+
+/* pc = paica, equals to 12 points. */
+#pc {
+	background-color: rgb(194, 14, 218);
+	width: 1pc;
+	height: 1pc;
+}
+
+#container {
+	padding-left: 5px;
+	width: 50vw;
+	background-color: blue;
+	color: white;
+	align-content: center;
+}
+
+/* margin = distance of elements around*/
+
+#inside {
+	background-color: red;
+	font-size: 3em;
+	padding-left: 5px;
+}

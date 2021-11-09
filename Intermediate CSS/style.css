@@ -1,0 +1,105 @@
+#overflow {
+  color: blue;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  overflow: auto;
+  margin: auto;
+}
+
+img {
+  width: 600px;
+}
+
+
+#quadrado {
+  height: 50px;
+  width: 50px;
+  background-color: blueviolet;
+  margin: auto;
+  overflow: hidden;
+}
+
+.quadro {
+  border: solid gray;
+  width: 500px;
+  height: 1000px;
+  position: relative;
+}
+
+.quadrado {
+  height: 100px;
+  width: 100px
+}
+
+.red {
+  background-color: red;
+  width: 100%;
+  position: sticky;
+  top: 40px
+}
+
+.blue {
+  background-color: blue;
+  position: absolute;
+  bottom: 0px;
+  right: 0px
+}
+
+.green {
+  background-color: green;
+  position: fixed;
+  bottom: 50%;
+  right: 0px
+}
+
+.orange {
+  background-color: orange;
+  position: relative;
+}
+
+div.align {
+  border: 1px solid black;
+  overflow: auto;
+  padding: 20px;
+  background-color: bisque;
+}
+
+img.align {
+  width: 500px;
+  float: left
+}
+
+p.align {
+  font-size: 1.6rem;
+}
+
+.card {
+  text-align: center;
+  position: relative;
+  float: left;
+  width: 400px;
+  height: 200px;
+  border: 1px solid blue;
+}
+
+.c1 {
+  background-color: aqua;
+  line-height: 200px;
+}
+
+.c2 {
+  background-color: blueviolet;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card2 {
+  clear: left;
+  float: left;
+  background-color: coral;
+  border: 1px solid black;
+  padding: 100px 200px;
+}

@@ -1,0 +1,13 @@
+p {
+	margin: 0px;
+}
+
+hr {
+	height: 1px;
+	background-color: rgb(189, 185, 185);
+	border-color: transparent;
+}
+
+img {
+	height: 80px;
+}
