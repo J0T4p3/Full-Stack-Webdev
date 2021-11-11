@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Suports</title>
+
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        overflow: auto;
+      }
+
+      ul {
+        margin: 0px;
+        padding: 0px;
+        display: block;
+      }
+
+      li {
+        display: inline;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header style="background-color: aqua; ">
+      <h1>HTML Intermediário!</h1>
+
+      <nav>
+        <ul>
+          <li>Contato</li>
+          <li>Preços</li>
+          <li>Comprar</li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main>
+
+      <form action="" method="GET" name="test">
+        Selecione uma Cor: <input type="color" name="color"><br><br>
+        Selecione uma data: <input type="date" name="date" min="2020-07-01" max="2022-01-01"> <br><br>
+        Selecione um Tempo específico: <input type="datetime-local" name="time">
+
+        <br>
+        Escolha um arquivo: <br>
+        <input type="file" name="file">
+
+        <br><br>
+
+        Digite seu celular: <input type="tel" name="celular" data-politespace data-grouplength="2,5,4"><br>
+
+        Digite um valor: <input type="number" name="nu"> <br>
+
+        Escolha uma quantidade: <input type="range" name="range" min="0" max="100" value="0">
+
+        <br><br>
+        <input type="reset">
+        <input type="submit" value="Enviar"> <br>
+
+
+
+      </form>
+    </main>
+
+    <footer>
+      <p>Visite nossa loja!</p>
+    </footer>
+  </body>
+
+</html>
